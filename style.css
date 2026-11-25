@@ -1,0 +1,35 @@
+:root {
+    color-scheme: light dark;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    --accent: #f47c20;
+}
+body {
+    max-width: 760px;
+    margin: auto;
+    padding: 32px 24px;
+    line-height: 1.7;
+}
+h1 {
+    font-size: 2.6rem;
+    letter-spacing: -0.04em;
+    margin-bottom: 0;
+}
+h2 {
+    margin-top: 32px;
+}
+a {
+    color: #b84b00;
+}
+.brand {
+    color: var(--accent);
+    font-weight: 700;
+}
+footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #8885;
+    font-size: 0.9rem;
+}
+@media (prefers-color-scheme: dark) {
+    a { color: #ffab60; }
+}
